@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strech</title>
+    <style>
+       button{
+        color: white;
+        background-color: rgb(9, 111, 9);
+        border: none;
+        padding: 7px 12px; /* Default padding: top-bottom, left-right */
+        cursor: pointer;
+        font-size: 19px;
+        border-radius: 2px;
+        transition: width 0.9s ease;  /*Smooth transition when width changes */
+        /*width: auto; */
+       }
+       button:hover{
+        opacity: 0.7;
+        box-shadow: 2px 4px 8px 0 rgb(33, 31, 31);
+        transform: scale(1.05) translateY(6px); /* Moves the button further down when Hovered */
+        /*2px: Horizontal offset. This moves the shadow slightly to the right.
+          4px: Vertical offset. This moves the shadow slightly downwards.
+          8px: Blur radius. This defines how much the shadow spreads and softens.
+          0: Spread radius. This controls how much the shadow expands or contracts. Setting it to 0 means no expansion.*/
+       }
+    </style>
+</head>
+<body>
+    <button>Shadow</button>
+</body>
+</html>
