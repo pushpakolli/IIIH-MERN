@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-shadow</title>
+    <style>
+        .box-shadow{
+         font-family: Arial;
+         font-size: 30px;
+         padding-left: 7px;
+         padding-right: 7px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border: none;
+         color: white;
+         background-color: aqua;
+         cursor: pointer;
+         transition: box-shadow 0.15s;
+        }
+        .box-shadow:hover{
+            box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.6), -3px -3px 5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="box-shadow">Tweet</button>
+    </div>
+</body>
+</html>
